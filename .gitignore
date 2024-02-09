@@ -27,3 +27,13 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# macOS
+*.DS_Store
+
+# KiCad Lock
+*.lck
+
+# JLCPCB Tool
+/jlcpcb/*
+!/jlcpcb/project.db
