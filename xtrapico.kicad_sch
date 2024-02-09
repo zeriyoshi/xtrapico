@@ -21,7 +21,7 @@
       (property "Value" "0402ESDA-05N" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "JLCPCB:D0402-BI" (at 0 -10.16 0)
+      (property "Footprint" "footprint:D0402-BI" (at 0 -10.16 0)
         (effects (font (size 1.27 1.27) italic) hide)
       )
       (property "Datasheet" "https://item.szlcsc.com/351549.html" (at -2.54 0 0)
@@ -85,7 +85,7 @@
       (property "Value" "0402WGF5101TCE" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "JLCPCB:R0402" (at 0 -10.16 0)
+      (property "Footprint" "footprint:R0402" (at 0 -10.16 0)
         (effects (font (size 1.27 1.27) italic) hide)
       )
       (property "Datasheet" "https://item.szlcsc.com/323315.html" (at -2.54 0 0)
@@ -121,7 +121,7 @@
       (property "Value" "TSA343G00-250J2" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "JLCPCB:SW-SMD_L4.0-W2.9-LS5.0" (at 0 -10.16 0)
+      (property "Footprint" "footprint:SW-SMD_L4.0-W2.9-LS5.0" (at 0 -10.16 0)
         (effects (font (size 1.27 1.27) italic) hide)
       )
       (property "Datasheet" "https://item.szlcsc.com/330471.html" (at -2.286 0.127 0)
@@ -167,7 +167,7 @@
       (property "Value" "TYPE-C-31-M-12" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "JLCPCB:USB-C_SMD-TYPE-C-31-M-12" (at 0 -10.16 0)
+      (property "Footprint" "footprint:USB-C_SMD-TYPE-C-31-M-12" (at 0 -10.16 0)
         (effects (font (size 1.27 1.27) italic) hide)
       )
       (property "Datasheet" "https://so.szlcsc.com/global.html?c=&k=C165948" (at -2.286 0.127 0)
@@ -279,7 +279,7 @@
       (property "Value" "X1321FR-2X20-C43D24" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "JLCPCB:CONN-TH_40P_X1321FR-2X20-C43D24" (at 0 -10.16 0)
+      (property "Footprint" "footprint:CONN-TH_40P_X1321FR-2X20-C43D24" (at 0 -10.16 0)
         (effects (font (size 1.27 1.27) italic) hide)
       )
       (property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211011/EE3425984B7D3E93A87361D002AB757E.pdf" (at -2.286 0.127 0)
@@ -1380,7 +1380,7 @@
   (symbol (lib_id "JLCPCB_X1321FR-2X20-C43D24:X1321FR-2X20-C43D24") (at 33.02 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 25c047ff-0385-4888-8930-7b817eaec384)
-    (property "Reference" "U5" (at 33.02 104.14 0)
+    (property "Reference" "XTRA_U5" (at 33.02 104.14 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "X1321FR-2X20-C43D24" (at 33.02 101.6 0)
@@ -1438,7 +1438,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33"
-          (reference "U5") (unit 1)
+          (reference "XTRA_U5") (unit 1)
         )
       )
     )
@@ -1519,7 +1519,7 @@
   (symbol (lib_id "JLCPCB_0402WGF5101TCE:0402WGF5101TCE") (at 97.79 73.66 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e544272-7bf6-47cd-bdd3-e7d61dd13131)
-    (property "Reference" "R3" (at 96.52 76.2 0)
+    (property "Reference" "XTRA_R3" (at 96.52 76.2 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0402WGF5101TCE" (at 96.52 78.74 0)
@@ -1539,7 +1539,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33"
-          (reference "R3") (unit 1)
+          (reference "XTRA_R3") (unit 1)
         )
       )
     )
@@ -1623,7 +1623,7 @@
   (symbol (lib_id "JLCPCB_0402ESDA-05N:0402ESDA-05N") (at 69.85 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 92fb845c-a586-4bcf-81fe-efbb219788d8)
-    (property "Reference" "D4" (at 69.85 124.46 0)
+    (property "Reference" "XTRA_D4" (at 69.85 124.46 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0402ESDA-05N" (at 69.85 127 0)
@@ -1643,7 +1643,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33"
-          (reference "D4") (unit 1)
+          (reference "XTRA_D4") (unit 1)
         )
       )
     )
@@ -1652,7 +1652,7 @@
   (symbol (lib_id "JLCPCB_0402ESDA-05N:0402ESDA-05N") (at 69.85 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 96c72281-57b3-4d11-91de-96366c67f89d)
-    (property "Reference" "D1" (at 69.85 93.98 0)
+    (property "Reference" "XTRA_D1" (at 69.85 93.98 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0402ESDA-05N" (at 69.85 96.52 0)
@@ -1672,7 +1672,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33"
-          (reference "D1") (unit 1)
+          (reference "XTRA_D1") (unit 1)
         )
       )
     )
@@ -1735,7 +1735,7 @@
   (symbol (lib_id "JLCPCB_0402WGF5101TCE:0402WGF5101TCE") (at 64.77 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a2f2e36d-3c69-42f3-a8b6-f47aa55053e3)
-    (property "Reference" "R1" (at 64.77 60.96 0)
+    (property "Reference" "XTRA_R1" (at 64.77 60.96 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0402WGF5101TCE" (at 64.77 63.5 0)
@@ -1755,7 +1755,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33"
-          (reference "R1") (unit 1)
+          (reference "XTRA_R1") (unit 1)
         )
       )
     )
@@ -1814,7 +1814,7 @@
   (symbol (lib_id "JLCPCB_0402ESDA-05N:0402ESDA-05N") (at 69.85 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c07f749a-7535-450b-8251-338ef26e2ec6)
-    (property "Reference" "D3" (at 69.85 114.3 0)
+    (property "Reference" "XTRA_D3" (at 69.85 114.3 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0402ESDA-05N" (at 69.85 116.84 0)
@@ -1834,7 +1834,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33"
-          (reference "D3") (unit 1)
+          (reference "XTRA_D3") (unit 1)
         )
       )
     )
@@ -1968,7 +1968,7 @@
   (symbol (lib_id "JLCPCB_0402ESDA-05N:0402ESDA-05N") (at 69.85 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f983e289-11d9-4f8f-959a-250e8a5c7e44)
-    (property "Reference" "D2" (at 69.85 104.14 0)
+    (property "Reference" "XTRA_D2" (at 69.85 104.14 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0402ESDA-05N" (at 69.85 106.68 0)
@@ -1988,7 +1988,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33"
-          (reference "D2") (unit 1)
+          (reference "XTRA_D2") (unit 1)
         )
       )
     )

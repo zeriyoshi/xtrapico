@@ -21,7 +21,7 @@
       (property "Value" "0402CG300J500NT" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "JLCPCB:C0402" (at 0 -10.16 0)
+      (property "Footprint" "footprint:C0402" (at 0 -10.16 0)
         (effects (font (size 1.27 1.27) italic) hide)
       )
       (property "Datasheet" "https://item.szlcsc.com/15869.html" (at -2.286 0.127 0)
@@ -83,7 +83,7 @@
       (property "Value" "0402WGF1001TCE" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "JLCPCB:R0402" (at 0 -10.16 0)
+      (property "Footprint" "footprint:R0402" (at 0 -10.16 0)
         (effects (font (size 1.27 1.27) italic) hide)
       )
       (property "Datasheet" "https://item.szlcsc.com/323315.html" (at -2.286 0.127 0)
@@ -117,7 +117,7 @@
       (property "Value" "0402WGF1002TCE" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "JLCPCB:R0402" (at 0 -10.16 0)
+      (property "Footprint" "footprint:R0402" (at 0 -10.16 0)
         (effects (font (size 1.27 1.27) italic) hide)
       )
       (property "Datasheet" "https://item.szlcsc.com/323315.html" (at -2.286 0.127 0)
@@ -151,7 +151,7 @@
       (property "Value" "AZ1117R-3_3TRE1" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "JLCPCB:SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR" (at 0 -10.16 0)
+      (property "Footprint" "footprint:SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR" (at 0 -10.16 0)
         (effects (font (size 1.27 1.27) italic) hide)
       )
       (property "Datasheet" "https://item.szlcsc.com/421845.html" (at -2.286 0.127 0)
@@ -195,7 +195,7 @@
       (property "Value" "B5819W_C8598" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "JLCPCB:SOD-123_L2.7-W1.6-LS3.7-RD-1" (at 0 -10.16 0)
+      (property "Footprint" "footprint:SOD-123_L2.7-W1.6-LS3.7-RD-1" (at 0 -10.16 0)
         (effects (font (size 1.27 1.27) italic) hide)
       )
       (property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210423/C2828417_EF1BF8BE3D48F97E320B09B073C89160.pdf" (at -2.54 0 0)
@@ -250,7 +250,7 @@
       (property "Value" "CL05A106MQ5NUNC" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "JLCPCB:C0402" (at 0 -10.16 0)
+      (property "Footprint" "footprint:C0402" (at 0 -10.16 0)
         (effects (font (size 1.27 1.27) italic) hide)
       )
       (property "Datasheet" "https://item.szlcsc.com/15869.html" (at -2.286 0.127 0)
@@ -312,7 +312,7 @@
       (property "Value" "CL31A107MQHNNNE" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "JLCPCB:C1206" (at 0 -10.16 0)
+      (property "Footprint" "footprint:C1206" (at 0 -10.16 0)
         (effects (font (size 1.27 1.27) italic) hide)
       )
       (property "Datasheet" "https://item.szlcsc.com/89171.html" (at -2.286 0.127 0)
@@ -374,7 +374,7 @@
       (property "Value" "X322512MSB4SI" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "JLCPCB:OSC-SMD_4P-L3.2-W2.5-BL" (at 0 -10.16 0)
+      (property "Footprint" "footprint:OSC-SMD_4P-L3.2-W2.5-BL" (at 0 -10.16 0)
         (effects (font (size 1.27 1.27) italic) hide)
       )
       (property "Datasheet" "https://item.szlcsc.com/15866.html" (at -2.286 0.127 0)
@@ -1626,7 +1626,7 @@
   (symbol (lib_id "JLCPCB_CL05A106MQ5NUNC:CL05A106MQ5NUNC") (at 143.51 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 03600243-8683-4c20-b7a4-897dc2000d57)
-    (property "Reference" "C11" (at 143.51 35.56 0)
+    (property "Reference" "XTRAPI_C11" (at 143.51 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CL05A106MQ5NUNC" (at 143.51 38.1 0)
@@ -1646,7 +1646,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
-          (reference "C11") (unit 1)
+          (reference "XTRAPI_C11") (unit 1)
         )
       )
     )
@@ -1655,7 +1655,7 @@
   (symbol (lib_id "JLCPCB_B5819W_C8598:B5819W_C8598") (at 97.79 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 04afcb9f-d682-4cce-990b-a6fd5e84a6d2)
-    (property "Reference" "U7" (at 94.869 59.69 0)
+    (property "Reference" "XTRAPI_U7" (at 94.869 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "B5819W_C8598" (at 94.869 57.15 0)
@@ -1675,7 +1675,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
-          (reference "U7") (unit 1)
+          (reference "XTRAPI_U7") (unit 1)
         )
       )
     )
@@ -1684,7 +1684,7 @@
   (symbol (lib_id "JLCPCB_CL05A106MQ5NUNC:CL05A106MQ5NUNC") (at 46.99 100.33 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 09e86cda-c642-4d70-b61a-20303c531cda)
-    (property "Reference" "C2" (at 49.53 99.06 90)
+    (property "Reference" "XTRAPI_C2" (at 49.53 99.06 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CL05A106MQ5NUNC" (at 49.53 101.6 90)
@@ -1704,7 +1704,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
-          (reference "C2") (unit 1)
+          (reference "XTRAPI_C2") (unit 1)
         )
       )
     )
@@ -1713,7 +1713,7 @@
   (symbol (lib_id "JLCPCB_0402CG300J500NT:0402CG300J500NT") (at 34.29 139.7 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0a56b160-46d0-47ec-9271-03273e8b97a7)
-    (property "Reference" "C1" (at 30.48 138.43 90)
+    (property "Reference" "XTRAPI_C1" (at 30.48 138.43 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0402CG300J500NT" (at 30.48 140.97 90)
@@ -1733,7 +1733,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
-          (reference "C1") (unit 1)
+          (reference "XTRAPI_C1") (unit 1)
         )
       )
     )
@@ -1742,7 +1742,7 @@
   (symbol (lib_id "JLCPCB_0402WGF1001TCE:0402WGF1001TCE") (at 74.93 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0a816e81-1c07-4ead-a00f-5415310bdd90)
-    (property "Reference" "R4" (at 74.93 123.19 0)
+    (property "Reference" "XTRAPI_R4" (at 74.93 123.19 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0402WGF1001TCE" (at 74.93 125.73 0)
@@ -1762,7 +1762,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
-          (reference "R4") (unit 1)
+          (reference "XTRAPI_R4") (unit 1)
         )
       )
     )
@@ -1771,7 +1771,7 @@
   (symbol (lib_id "JLCPCB_B5819W_C8598:B5819W_C8598") (at 97.79 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2675142c-7cbb-4e62-ad11-4e7756b3168b)
-    (property "Reference" "U6" (at 97.79 41.91 0)
+    (property "Reference" "XTRAPI_U6" (at 97.79 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "B5819W_C8598" (at 97.79 39.37 0)
@@ -1791,7 +1791,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
-          (reference "U6") (unit 1)
+          (reference "XTRAPI_U6") (unit 1)
         )
       )
     )
@@ -1850,7 +1850,7 @@
   (symbol (lib_id "JLCPCB_CL05A106MQ5NUNC:CL05A106MQ5NUNC") (at 116.84 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 54d2311f-d5fc-4868-8647-337151931dc7)
-    (property "Reference" "C8" (at 114.3 52.07 0)
+    (property "Reference" "XTRAPI_C8" (at 114.3 52.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CL05A106MQ5NUNC" (at 114.3 54.61 0)
@@ -1870,7 +1870,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
-          (reference "C8") (unit 1)
+          (reference "XTRAPI_C8") (unit 1)
         )
       )
     )
@@ -1879,7 +1879,7 @@
   (symbol (lib_id "JLCPCB_X322512MSB4SI:X322512MSB4SI") (at 41.91 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 58643e6a-2b69-446a-bede-c482de44741e)
-    (property "Reference" "X1" (at 41.91 121.92 0)
+    (property "Reference" "XTRAPI_X1" (at 41.91 121.92 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "X322512MSB4SI" (at 41.91 124.46 0)
@@ -1901,7 +1901,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
-          (reference "X1") (unit 1)
+          (reference "XTRAPI_X1") (unit 1)
         )
       )
     )
@@ -1910,7 +1910,7 @@
   (symbol (lib_id "JLCPCB_CL05A106MQ5NUNC:CL05A106MQ5NUNC") (at 168.91 21.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 59bea723-ec47-4ba0-b1b6-6d60fcd0b953)
-    (property "Reference" "C15" (at 168.91 15.24 0)
+    (property "Reference" "XTRAPI_C15" (at 168.91 15.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CL05A106MQ5NUNC" (at 168.91 17.78 0)
@@ -1930,7 +1930,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
-          (reference "C15") (unit 1)
+          (reference "XTRAPI_C15") (unit 1)
         )
       )
     )
@@ -1939,7 +1939,7 @@
   (symbol (lib_id "JLCPCB_CL05A106MQ5NUNC:CL05A106MQ5NUNC") (at 116.84 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6200f178-a943-428d-99f9-e5cbacebfbe5)
-    (property "Reference" "C6" (at 114.3 31.75 0)
+    (property "Reference" "XTRAPI_C6" (at 114.3 31.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CL05A106MQ5NUNC" (at 114.3 34.29 0)
@@ -1959,7 +1959,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
-          (reference "C6") (unit 1)
+          (reference "XTRAPI_C6") (unit 1)
         )
       )
     )
@@ -1968,7 +1968,7 @@
   (symbol (lib_id "JLCPCB_CL05A106MQ5NUNC:CL05A106MQ5NUNC") (at 168.91 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 64141546-e55a-4522-a3e9-d6db4745e553)
-    (property "Reference" "C16" (at 168.91 25.4 0)
+    (property "Reference" "XTRAPI_C16" (at 168.91 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CL05A106MQ5NUNC" (at 168.91 27.94 0)
@@ -1988,7 +1988,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
-          (reference "C16") (unit 1)
+          (reference "XTRAPI_C16") (unit 1)
         )
       )
     )
@@ -1997,7 +1997,7 @@
   (symbol (lib_id "JLCPCB_CL05A106MQ5NUNC:CL05A106MQ5NUNC") (at 143.51 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 70159b65-dc46-481b-850c-9f8f3531c4fb)
-    (property "Reference" "C12" (at 143.51 45.72 0)
+    (property "Reference" "XTRAPI_C12" (at 143.51 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CL05A106MQ5NUNC" (at 143.51 48.26 0)
@@ -2017,7 +2017,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
-          (reference "C12") (unit 1)
+          (reference "XTRAPI_C12") (unit 1)
         )
       )
     )
@@ -2026,7 +2026,7 @@
   (symbol (lib_id "JLCPCB_CL05A106MQ5NUNC:CL05A106MQ5NUNC") (at 148.59 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 736cbc27-ef06-4842-8e35-9a729395d168)
-    (property "Reference" "C13" (at 149.86 60.96 0)
+    (property "Reference" "XTRAPI_C13" (at 149.86 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (property "Value" "CL05A106MQ5NUNC" (at 149.86 63.5 0)
@@ -2046,7 +2046,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
-          (reference "C13") (unit 1)
+          (reference "XTRAPI_C13") (unit 1)
         )
       )
     )
@@ -2055,7 +2055,7 @@
   (symbol (lib_id "JLCPCB_CL05A106MQ5NUNC:CL05A106MQ5NUNC") (at 35.56 58.42 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 78e9c7d2-a1b9-4ab4-b3da-358be8af772b)
-    (property "Reference" "C5" (at 39.37 62.23 90)
+    (property "Reference" "XTRAPI_C5" (at 39.37 62.23 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CL05A106MQ5NUNC" (at 39.37 64.77 90)
@@ -2075,7 +2075,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
-          (reference "C5") (unit 1)
+          (reference "XTRAPI_C5") (unit 1)
         )
       )
     )
@@ -2084,7 +2084,7 @@
   (symbol (lib_id "JLCPCB_CL05A106MQ5NUNC:CL05A106MQ5NUNC") (at 46.99 53.34 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a02f8772-6228-4f43-a199-2bcbfcc13767)
-    (property "Reference" "C9" (at 49.53 52.07 90)
+    (property "Reference" "XTRAPI_C9" (at 49.53 52.07 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CL05A106MQ5NUNC" (at 49.53 54.61 90)
@@ -2104,7 +2104,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
-          (reference "C9") (unit 1)
+          (reference "XTRAPI_C9") (unit 1)
         )
       )
     )
@@ -2113,7 +2113,7 @@
   (symbol (lib_id "JLCPCB_AZ1117R-3_3TRE1:AZ1117R-3_3TRE1") (at 59.69 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a6cac214-32ed-445b-b641-9a9d758f6165)
-    (property "Reference" "U4" (at 78.74 34.29 0)
+    (property "Reference" "XTRAPI_U4" (at 78.74 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "AZ1117R-3_3TRE1" (at 78.74 36.83 0)
@@ -2134,7 +2134,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
-          (reference "U4") (unit 1)
+          (reference "XTRAPI_U4") (unit 1)
         )
       )
     )
@@ -2143,7 +2143,7 @@
   (symbol (lib_id "JLCPCB_0402CG300J500NT:0402CG300J500NT") (at 59.69 133.35 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a97c0cda-38e4-4762-a3de-95cdacdaf8d6)
-    (property "Reference" "C3" (at 63.5 132.08 90)
+    (property "Reference" "XTRAPI_C3" (at 63.5 132.08 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0402CG300J500NT" (at 63.5 134.62 90)
@@ -2163,7 +2163,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
-          (reference "C3") (unit 1)
+          (reference "XTRAPI_C3") (unit 1)
         )
       )
     )
@@ -2172,7 +2172,7 @@
   (symbol (lib_id "Memory_Flash:W25Q128JVS") (at 55.88 83.82 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9582202-71f9-434b-a7dc-9f5ff5fbf504)
-    (property "Reference" "U2" (at 46.99 82.55 0)
+    (property "Reference" "XTRAPI_U2" (at 46.99 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "W25Q128JVS" (at 46.99 85.09 0)
@@ -2182,9 +2182,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf" (at 55.88 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C97521" (at 55.88 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "4" (uuid caec0f55-60ae-4121-84ec-3e997c1a8ef6))
@@ -2198,7 +2195,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
-          (reference "U2") (unit 1)
+          (reference "XTRAPI_U2") (unit 1)
         )
       )
     )
@@ -2232,7 +2229,7 @@
   (symbol (lib_id "JLCPCB_CL05A106MQ5NUNC:CL05A106MQ5NUNC") (at 168.91 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c1c892c3-2bb0-4c79-8b94-746eaf8126d8)
-    (property "Reference" "C17" (at 168.91 35.56 0)
+    (property "Reference" "XTRAPI_C17" (at 168.91 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CL05A106MQ5NUNC" (at 168.91 38.1 0)
@@ -2252,7 +2249,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
-          (reference "C17") (unit 1)
+          (reference "XTRAPI_C17") (unit 1)
         )
       )
     )
@@ -2261,7 +2258,7 @@
   (symbol (lib_id "JLCPCB_0402WGF1002TCE:0402WGF1002TCE") (at 36.83 102.87 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cc279c7c-b42d-44d4-857b-60dfdc6f2c75)
-    (property "Reference" "R2" (at 34.29 101.6 90)
+    (property "Reference" "XTRAPI_R2" (at 34.29 101.6 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0402WGF1002TCE" (at 34.29 104.14 90)
@@ -2281,7 +2278,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
-          (reference "R2") (unit 1)
+          (reference "XTRAPI_R2") (unit 1)
         )
       )
     )
@@ -2290,7 +2287,7 @@
   (symbol (lib_id "MCU_RaspberryPi:RP2040") (at 118.11 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d28f7add-b263-4d0f-8631-8a051e2e99fe)
-    (property "Reference" "U3" (at 120.3041 156.21 0)
+    (property "Reference" "XTRAPI_U3" (at 120.3041 156.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RP2040" (at 120.3041 158.75 0)
@@ -2362,7 +2359,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
-          (reference "U3") (unit 1)
+          (reference "XTRAPI_U3") (unit 1)
         )
       )
     )
@@ -2371,7 +2368,7 @@
   (symbol (lib_id "JLCPCB_CL31A107MQHNNNE:CL31A107MQHNNNE") (at 71.12 53.34 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d4c637eb-4286-49b2-aad4-ac3b04649831)
-    (property "Reference" "C14" (at 73.66 52.07 90)
+    (property "Reference" "XTRAPI_C14" (at 73.66 52.07 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CL31A107MQHNNNE" (at 73.66 54.61 90)
@@ -2391,7 +2388,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
-          (reference "C14") (unit 1)
+          (reference "XTRAPI_C14") (unit 1)
         )
       )
     )
@@ -2400,7 +2397,7 @@
   (symbol (lib_id "JLCPCB_CL05A106MQ5NUNC:CL05A106MQ5NUNC") (at 116.84 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d88c3d67-4cc7-4e13-a8b5-a29e3e71ebc8)
-    (property "Reference" "C7" (at 114.3 41.91 0)
+    (property "Reference" "XTRAPI_C7" (at 114.3 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CL05A106MQ5NUNC" (at 114.3 44.45 0)
@@ -2420,7 +2417,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
-          (reference "C7") (unit 1)
+          (reference "XTRAPI_C7") (unit 1)
         )
       )
     )
@@ -2429,7 +2426,7 @@
   (symbol (lib_id "JLCPCB_CL05A106MQ5NUNC:CL05A106MQ5NUNC") (at 143.51 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e1bd5998-2bf3-47fc-ba8b-fb25ef44c9f9)
-    (property "Reference" "C10" (at 143.51 25.4 0)
+    (property "Reference" "XTRAPI_C10" (at 143.51 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CL05A106MQ5NUNC" (at 143.51 27.94 0)
@@ -2449,7 +2446,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
-          (reference "C10") (unit 1)
+          (reference "XTRAPI_C10") (unit 1)
         )
       )
     )
@@ -2458,7 +2455,7 @@
   (symbol (lib_id "JLCPCB_CL05A106MQ5NUNC:CL05A106MQ5NUNC") (at 168.91 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e46fa478-f344-439c-b76c-2238b0e4b4b4)
-    (property "Reference" "C18" (at 168.91 45.72 0)
+    (property "Reference" "XTRAPI_C18" (at 168.91 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CL05A106MQ5NUNC" (at 168.91 48.26 0)
@@ -2478,7 +2475,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
-          (reference "C18") (unit 1)
+          (reference "XTRAPI_C18") (unit 1)
         )
       )
     )
@@ -2487,7 +2484,7 @@
   (symbol (lib_id "JLCPCB_CL31A107MQHNNNE:CL31A107MQHNNNE") (at 24.13 58.42 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f6eb480a-8cbb-40b6-9e64-e1bacd06e940)
-    (property "Reference" "C4" (at 26.67 49.53 90)
+    (property "Reference" "XTRAPI_C4" (at 26.67 49.53 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "CL31A107MQHNNNE" (at 26.67 52.07 90)
@@ -2507,7 +2504,7 @@
     (instances
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
-          (reference "C4") (unit 1)
+          (reference "XTRAPI_C4") (unit 1)
         )
       )
     )
