@@ -21,7 +21,7 @@
       (property "Value" "0402CG300J500NT" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "footprint:C0402" (at 0 -10.16 0)
+      (property "Footprint" "XTRAPI_JLC2KiCadLib:C0402" (at 0 -10.16 0)
         (effects (font (size 1.27 1.27) italic) hide)
       )
       (property "Datasheet" "https://item.szlcsc.com/15869.html" (at -2.286 0.127 0)
@@ -83,10 +83,10 @@
       (property "Value" "0402WGF1001TCE" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "footprint:R0402" (at 0 -10.16 0)
+      (property "Footprint" "XTRAPI_JLC2KiCadLib:R0402" (at 0 -10.16 0)
         (effects (font (size 1.27 1.27) italic) hide)
       )
-      (property "Datasheet" "https://item.szlcsc.com/323315.html" (at -2.286 0.127 0)
+      (property "Datasheet" "https://item.szlcsc.com/323315.html" (at -2.54 0 0)
         (effects (font (size 1.27 1.27)) (justify left) hide)
       )
       (property "LCSC" "C11702" (at 0 0 0)
@@ -100,11 +100,13 @@
           (stroke (width 0) (type default))
           (fill (type background))
         )
-        (pin input line (at -5.08 0 0) (length 2.54)
+      )
+      (symbol "0402WGF1001TCE_1_1"
+        (pin passive line (at -5.08 0 0) (length 2.54)
           (name "1" (effects (font (size 1 1))))
           (number "1" (effects (font (size 1 1))))
         )
-        (pin input line (at 5.08 0 180) (length 2.54)
+        (pin passive line (at 5.08 0 180) (length 2.54)
           (name "2" (effects (font (size 1 1))))
           (number "2" (effects (font (size 1 1))))
         )
@@ -117,10 +119,10 @@
       (property "Value" "0402WGF1002TCE" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "footprint:R0402" (at 0 -10.16 0)
+      (property "Footprint" "XTRAPI_JLC2KiCadLib:R0402" (at 0 -10.16 0)
         (effects (font (size 1.27 1.27) italic) hide)
       )
-      (property "Datasheet" "https://item.szlcsc.com/323315.html" (at -2.286 0.127 0)
+      (property "Datasheet" "https://item.szlcsc.com/323315.html" (at -2.54 0 0)
         (effects (font (size 1.27 1.27)) (justify left) hide)
       )
       (property "LCSC" "C25744" (at 0 0 0)
@@ -134,11 +136,13 @@
           (stroke (width 0) (type default))
           (fill (type background))
         )
-        (pin input line (at -5.08 0 0) (length 2.54)
+      )
+      (symbol "0402WGF1002TCE_1_1"
+        (pin passive line (at -5.08 0 0) (length 2.54)
           (name "1" (effects (font (size 1 1))))
           (number "1" (effects (font (size 1 1))))
         )
-        (pin input line (at 5.08 0 180) (length 2.54)
+        (pin passive line (at 5.08 0 180) (length 2.54)
           (name "2" (effects (font (size 1 1))))
           (number "2" (effects (font (size 1 1))))
         )
@@ -151,7 +155,7 @@
       (property "Value" "AZ1117R-3_3TRE1" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "footprint:SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR" (at 0 -10.16 0)
+      (property "Footprint" "XTRAPI_JLC2KiCadLib:SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR" (at 0 -10.16 0)
         (effects (font (size 1.27 1.27) italic) hide)
       )
       (property "Datasheet" "https://item.szlcsc.com/421845.html" (at -2.286 0.127 0)
@@ -195,7 +199,7 @@
       (property "Value" "B5819W_C8598" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "footprint:SOD-123_L2.7-W1.6-LS3.7-RD-1" (at 0 -10.16 0)
+      (property "Footprint" "XTRAPI_JLC2KiCadLib:SOD-123_L2.7-W1.6-LS3.7-RD-1" (at 0 -10.16 0)
         (effects (font (size 1.27 1.27) italic) hide)
       )
       (property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210423/C2828417_EF1BF8BE3D48F97E320B09B073C89160.pdf" (at -2.54 0 0)
@@ -250,7 +254,7 @@
       (property "Value" "CL05A106MQ5NUNC" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "footprint:C0402" (at 0 -10.16 0)
+      (property "Footprint" "XTRAPI_JLC2KiCadLib:C0402" (at 0 -10.16 0)
         (effects (font (size 1.27 1.27) italic) hide)
       )
       (property "Datasheet" "https://item.szlcsc.com/15869.html" (at -2.286 0.127 0)
@@ -312,7 +316,7 @@
       (property "Value" "CL31A107MQHNNNE" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "footprint:C1206" (at 0 -10.16 0)
+      (property "Footprint" "XTRAPI_JLC2KiCadLib:C1206" (at 0 -10.16 0)
         (effects (font (size 1.27 1.27) italic) hide)
       )
       (property "Datasheet" "https://item.szlcsc.com/89171.html" (at -2.286 0.127 0)
@@ -374,7 +378,7 @@
       (property "Value" "X322512MSB4SI" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "footprint:OSC-SMD_4P-L3.2-W2.5-BL" (at 0 -10.16 0)
+      (property "Footprint" "XTRAPI_JLC2KiCadLib:OSC-SMD_4P-L3.2-W2.5-BL" (at 0 -10.16 0)
         (effects (font (size 1.27 1.27) italic) hide)
       )
       (property "Datasheet" "https://item.szlcsc.com/15866.html" (at -2.286 0.127 0)
@@ -1537,7 +1541,7 @@
     (property "Value" "CL05A106MQ5NUNC" (at 143.51 38.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "JLCPCB:C0402" (at 143.51 52.07 0)
+    (property "Footprint" "XTRAPI_JLC2KiCadLib:C0402" (at 143.51 52.07 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/15869.html" (at 141.224 41.783 0)
@@ -1549,6 +1553,11 @@
     (pin "2" (uuid b8d6d640-4604-4ee4-9a24-a507a834ffc3))
     (pin "1" (uuid 48316fa9-cd06-4c22-abc7-7f8483a6005e))
     (instances
+      (project "picopico"
+        (path "/649044b9-4f27-440c-a4af-24a6a7c2a060/5027dab2-82b9-4a79-b7a0-22330b5283af"
+          (reference "XTRAPI_C11") (unit 1)
+        )
+      )
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
           (reference "XTRAPI_C11") (unit 1)
@@ -1566,7 +1575,7 @@
     (property "Value" "B5819W_C8598" (at 94.869 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "JLCPCB:SOD-123_L2.7-W1.6-LS3.7-RD-1" (at 97.79 62.23 0)
+    (property "Footprint" "XTRAPI_JLC2KiCadLib:SOD-123_L2.7-W1.6-LS3.7-RD-1" (at 97.79 62.23 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210423/C2828417_EF1BF8BE3D48F97E320B09B073C89160.pdf" (at 95.25 52.07 0)
@@ -1578,6 +1587,11 @@
     (pin "1" (uuid 47388a46-b5ec-4030-a680-d875f748237b))
     (pin "2" (uuid 14c63cc9-d363-489f-b19b-b4e22388b731))
     (instances
+      (project "picopico"
+        (path "/649044b9-4f27-440c-a4af-24a6a7c2a060/5027dab2-82b9-4a79-b7a0-22330b5283af"
+          (reference "XTRAPI_U7") (unit 1)
+        )
+      )
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
           (reference "XTRAPI_U7") (unit 1)
@@ -1595,7 +1609,7 @@
     (property "Value" "CL05A106MQ5NUNC" (at 49.53 101.6 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "JLCPCB:C0402" (at 36.83 100.33 0)
+    (property "Footprint" "XTRAPI_JLC2KiCadLib:C0402" (at 36.83 100.33 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/15869.html" (at 47.117 98.044 0)
@@ -1607,6 +1621,11 @@
     (pin "2" (uuid 99947ba5-215b-45c8-8f7b-afe534a17d69))
     (pin "1" (uuid 0c654160-ca4d-45f3-a7d3-8dd2b76e9f9e))
     (instances
+      (project "picopico"
+        (path "/649044b9-4f27-440c-a4af-24a6a7c2a060/5027dab2-82b9-4a79-b7a0-22330b5283af"
+          (reference "XTRAPI_C2") (unit 1)
+        )
+      )
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
           (reference "XTRAPI_C2") (unit 1)
@@ -1624,7 +1643,7 @@
     (property "Value" "0402CG300J500NT" (at 30.48 140.97 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "JLCPCB:C0402" (at 24.13 139.7 0)
+    (property "Footprint" "XTRAPI_JLC2KiCadLib:C0402" (at 24.13 139.7 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/15869.html" (at 34.417 137.414 0)
@@ -1636,6 +1655,11 @@
     (pin "1" (uuid f499530c-d94b-46dd-ae53-ad1451ecc269))
     (pin "2" (uuid 8210f293-ae97-4efe-98ae-38ff11908888))
     (instances
+      (project "picopico"
+        (path "/649044b9-4f27-440c-a4af-24a6a7c2a060/5027dab2-82b9-4a79-b7a0-22330b5283af"
+          (reference "XTRAPI_C1") (unit 1)
+        )
+      )
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
           (reference "XTRAPI_C1") (unit 1)
@@ -1653,7 +1677,7 @@
     (property "Value" "0402WGF1001TCE" (at 74.93 125.73 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "JLCPCB:R0402" (at 74.93 139.7 0)
+    (property "Footprint" "XTRAPI_JLC2KiCadLib:R0402" (at 74.93 139.7 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/323315.html" (at 72.644 129.413 0)
@@ -1665,6 +1689,11 @@
     (pin "1" (uuid 223bb7ed-7ba4-4294-a626-a5be5103aff8))
     (pin "2" (uuid 61be9706-9811-4be2-b4ae-9a0a07807435))
     (instances
+      (project "picopico"
+        (path "/649044b9-4f27-440c-a4af-24a6a7c2a060/5027dab2-82b9-4a79-b7a0-22330b5283af"
+          (reference "XTRAPI_R4") (unit 1)
+        )
+      )
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
           (reference "XTRAPI_R4") (unit 1)
@@ -1682,7 +1711,7 @@
     (property "Value" "B5819W_C8598" (at 97.79 39.37 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "JLCPCB:SOD-123_L2.7-W1.6-LS3.7-RD-1" (at 97.79 55.88 0)
+    (property "Footprint" "XTRAPI_JLC2KiCadLib:SOD-123_L2.7-W1.6-LS3.7-RD-1" (at 97.79 55.88 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210423/C2828417_EF1BF8BE3D48F97E320B09B073C89160.pdf" (at 95.25 45.72 0)
@@ -1694,6 +1723,11 @@
     (pin "1" (uuid ed1822e9-0415-455f-bbe2-58f3347b8e2c))
     (pin "2" (uuid 4364090f-03ec-4ffa-b4ec-66c608a00309))
     (instances
+      (project "picopico"
+        (path "/649044b9-4f27-440c-a4af-24a6a7c2a060/5027dab2-82b9-4a79-b7a0-22330b5283af"
+          (reference "XTRAPI_U6") (unit 1)
+        )
+      )
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
           (reference "XTRAPI_U6") (unit 1)
@@ -1711,7 +1745,7 @@
     (property "Value" "CL05A106MQ5NUNC" (at 114.3 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "JLCPCB:C0402" (at 116.84 68.58 0)
+    (property "Footprint" "XTRAPI_JLC2KiCadLib:C0402" (at 116.84 68.58 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/15869.html" (at 114.554 58.293 0)
@@ -1723,6 +1757,11 @@
     (pin "2" (uuid 6538e53f-268e-4e7d-a035-091af185000d))
     (pin "1" (uuid 015d90b4-4a33-4ba5-b2bc-a70619a74d5c))
     (instances
+      (project "picopico"
+        (path "/649044b9-4f27-440c-a4af-24a6a7c2a060/5027dab2-82b9-4a79-b7a0-22330b5283af"
+          (reference "XTRAPI_C8") (unit 1)
+        )
+      )
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
           (reference "XTRAPI_C8") (unit 1)
@@ -1740,7 +1779,7 @@
     (property "Value" "X322512MSB4SI" (at 41.91 124.46 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "JLCPCB:OSC-SMD_4P-L3.2-W2.5-BL" (at 41.91 142.24 0)
+    (property "Footprint" "XTRAPI_JLC2KiCadLib:OSC-SMD_4P-L3.2-W2.5-BL" (at 41.91 142.24 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/15866.html" (at 39.624 131.953 0)
@@ -1754,6 +1793,11 @@
     (pin "3" (uuid 3bcf8307-4d7b-48d0-901d-2f62c99c2063))
     (pin "4" (uuid a95a73ba-43d3-451e-80df-9336103961e3))
     (instances
+      (project "picopico"
+        (path "/649044b9-4f27-440c-a4af-24a6a7c2a060/5027dab2-82b9-4a79-b7a0-22330b5283af"
+          (reference "XTRAPI_X1") (unit 1)
+        )
+      )
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
           (reference "XTRAPI_X1") (unit 1)
@@ -1771,7 +1815,7 @@
     (property "Value" "CL05A106MQ5NUNC" (at 168.91 17.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "JLCPCB:C0402" (at 168.91 31.75 0)
+    (property "Footprint" "XTRAPI_JLC2KiCadLib:C0402" (at 168.91 31.75 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/15869.html" (at 166.624 21.463 0)
@@ -1783,6 +1827,11 @@
     (pin "2" (uuid 9460c807-2ba8-41bc-852d-3205e09744e2))
     (pin "1" (uuid 96b58775-32a0-4552-9df1-12e9a70328f3))
     (instances
+      (project "picopico"
+        (path "/649044b9-4f27-440c-a4af-24a6a7c2a060/5027dab2-82b9-4a79-b7a0-22330b5283af"
+          (reference "XTRAPI_C15") (unit 1)
+        )
+      )
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
           (reference "XTRAPI_C15") (unit 1)
@@ -1800,7 +1849,7 @@
     (property "Value" "CL05A106MQ5NUNC" (at 114.3 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "JLCPCB:C0402" (at 116.84 48.26 0)
+    (property "Footprint" "XTRAPI_JLC2KiCadLib:C0402" (at 116.84 48.26 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/15869.html" (at 114.554 37.973 0)
@@ -1812,6 +1861,11 @@
     (pin "2" (uuid 2275d3b7-d144-42be-bdd8-bb5b47425fdd))
     (pin "1" (uuid 72b39221-6698-4072-bbee-96287521691c))
     (instances
+      (project "picopico"
+        (path "/649044b9-4f27-440c-a4af-24a6a7c2a060/5027dab2-82b9-4a79-b7a0-22330b5283af"
+          (reference "XTRAPI_C6") (unit 1)
+        )
+      )
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
           (reference "XTRAPI_C6") (unit 1)
@@ -1829,7 +1883,7 @@
     (property "Value" "CL05A106MQ5NUNC" (at 168.91 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "JLCPCB:C0402" (at 168.91 41.91 0)
+    (property "Footprint" "XTRAPI_JLC2KiCadLib:C0402" (at 168.91 41.91 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/15869.html" (at 166.624 31.623 0)
@@ -1841,6 +1895,11 @@
     (pin "2" (uuid 9e448ef8-3057-4ee9-997f-f8915dbcb780))
     (pin "1" (uuid cf79d7e5-b727-4d7d-b684-a8c145faa38f))
     (instances
+      (project "picopico"
+        (path "/649044b9-4f27-440c-a4af-24a6a7c2a060/5027dab2-82b9-4a79-b7a0-22330b5283af"
+          (reference "XTRAPI_C16") (unit 1)
+        )
+      )
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
           (reference "XTRAPI_C16") (unit 1)
@@ -1858,7 +1917,7 @@
     (property "Value" "CL05A106MQ5NUNC" (at 143.51 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "JLCPCB:C0402" (at 143.51 62.23 0)
+    (property "Footprint" "XTRAPI_JLC2KiCadLib:C0402" (at 143.51 62.23 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/15869.html" (at 141.224 51.943 0)
@@ -1870,6 +1929,11 @@
     (pin "2" (uuid f3e9a989-574e-44c5-be77-8a8c055ba0a0))
     (pin "1" (uuid 2525f72f-8e6f-4cd5-9f7d-8ed65f937bde))
     (instances
+      (project "picopico"
+        (path "/649044b9-4f27-440c-a4af-24a6a7c2a060/5027dab2-82b9-4a79-b7a0-22330b5283af"
+          (reference "XTRAPI_C12") (unit 1)
+        )
+      )
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
           (reference "XTRAPI_C12") (unit 1)
@@ -1887,7 +1951,7 @@
     (property "Value" "CL05A106MQ5NUNC" (at 149.86 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (property "Footprint" "JLCPCB:C0402" (at 148.59 69.85 0)
+    (property "Footprint" "XTRAPI_JLC2KiCadLib:C0402" (at 148.59 69.85 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/15869.html" (at 146.304 59.563 0)
@@ -1899,6 +1963,11 @@
     (pin "2" (uuid 2c6f2679-8007-4af7-bb5b-a1f91271744b))
     (pin "1" (uuid 35f02b0d-5015-47ab-86ca-b5bb0b2257fb))
     (instances
+      (project "picopico"
+        (path "/649044b9-4f27-440c-a4af-24a6a7c2a060/5027dab2-82b9-4a79-b7a0-22330b5283af"
+          (reference "XTRAPI_C13") (unit 1)
+        )
+      )
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
           (reference "XTRAPI_C13") (unit 1)
@@ -1916,7 +1985,7 @@
     (property "Value" "CL05A106MQ5NUNC" (at 39.37 64.77 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "JLCPCB:C0402" (at 25.4 58.42 0)
+    (property "Footprint" "XTRAPI_JLC2KiCadLib:C0402" (at 25.4 58.42 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/15869.html" (at 35.687 56.134 0)
@@ -1928,6 +1997,11 @@
     (pin "2" (uuid 2ebfbc8a-a3ed-4693-a111-97ec98373d80))
     (pin "1" (uuid 6fd9f052-3256-4799-8203-27f2cedf7a4b))
     (instances
+      (project "picopico"
+        (path "/649044b9-4f27-440c-a4af-24a6a7c2a060/5027dab2-82b9-4a79-b7a0-22330b5283af"
+          (reference "XTRAPI_C5") (unit 1)
+        )
+      )
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
           (reference "XTRAPI_C5") (unit 1)
@@ -1945,7 +2019,7 @@
     (property "Value" "CL05A106MQ5NUNC" (at 49.53 54.61 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "JLCPCB:C0402" (at 36.83 53.34 0)
+    (property "Footprint" "XTRAPI_JLC2KiCadLib:C0402" (at 36.83 53.34 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/15869.html" (at 47.117 51.054 0)
@@ -1957,6 +2031,11 @@
     (pin "1" (uuid 9c49ec77-ef0a-49c0-8280-e57c96c252c8))
     (pin "2" (uuid c1d2fcdd-a519-4057-8df7-f62ef3336858))
     (instances
+      (project "picopico"
+        (path "/649044b9-4f27-440c-a4af-24a6a7c2a060/5027dab2-82b9-4a79-b7a0-22330b5283af"
+          (reference "XTRAPI_C9") (unit 1)
+        )
+      )
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
           (reference "XTRAPI_C9") (unit 1)
@@ -1974,7 +2053,7 @@
     (property "Value" "AZ1117R-3_3TRE1" (at 78.74 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "JLCPCB:SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR" (at 59.69 45.72 0)
+    (property "Footprint" "XTRAPI_JLC2KiCadLib:SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR" (at 59.69 45.72 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/421845.html" (at 57.404 35.433 0)
@@ -1987,6 +2066,11 @@
     (pin "2" (uuid 773b5fb2-01e0-4df6-a079-4f8ce3ec4623))
     (pin "3" (uuid c3e27dc4-060c-4be8-859c-c72961871860))
     (instances
+      (project "picopico"
+        (path "/649044b9-4f27-440c-a4af-24a6a7c2a060/5027dab2-82b9-4a79-b7a0-22330b5283af"
+          (reference "XTRAPI_U4") (unit 1)
+        )
+      )
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
           (reference "XTRAPI_U4") (unit 1)
@@ -2004,7 +2088,7 @@
     (property "Value" "0402CG300J500NT" (at 63.5 134.62 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "JLCPCB:C0402" (at 49.53 133.35 0)
+    (property "Footprint" "XTRAPI_JLC2KiCadLib:C0402" (at 49.53 133.35 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/15869.html" (at 59.817 131.064 0)
@@ -2016,6 +2100,11 @@
     (pin "1" (uuid 0218ada9-f17d-4a84-939f-188514562218))
     (pin "2" (uuid 9f1e3347-573d-4b5b-b4d5-88e95d626f4b))
     (instances
+      (project "picopico"
+        (path "/649044b9-4f27-440c-a4af-24a6a7c2a060/5027dab2-82b9-4a79-b7a0-22330b5283af"
+          (reference "XTRAPI_C3") (unit 1)
+        )
+      )
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
           (reference "XTRAPI_C3") (unit 1)
@@ -2048,6 +2137,11 @@
     (pin "7" (uuid 9fca9a20-6777-4d80-9f93-4660c8742e41))
     (pin "1" (uuid 90fa20fa-f959-4581-8d5b-72491c046e39))
     (instances
+      (project "picopico"
+        (path "/649044b9-4f27-440c-a4af-24a6a7c2a060/5027dab2-82b9-4a79-b7a0-22330b5283af"
+          (reference "XTRAPI_U2") (unit 1)
+        )
+      )
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
           (reference "XTRAPI_U2") (unit 1)
@@ -2059,7 +2153,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 82.55 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bfb3d70e-2f9e-458a-8aa1-3ba1c782063c)
-    (property "Reference" "#FLG01" (at 82.55 47.625 0)
+    (property "Reference" "#FLG0101" (at 82.55 47.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 82.55 44.45 0)
@@ -2073,6 +2167,11 @@
     )
     (pin "1" (uuid 21f88059-5288-46a2-8fc7-24c50bd4eecf))
     (instances
+      (project "picopico"
+        (path "/649044b9-4f27-440c-a4af-24a6a7c2a060/5027dab2-82b9-4a79-b7a0-22330b5283af"
+          (reference "#FLG0101") (unit 1)
+        )
+      )
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
           (reference "#FLG01") (unit 1)
@@ -2090,7 +2189,7 @@
     (property "Value" "CL05A106MQ5NUNC" (at 168.91 38.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "JLCPCB:C0402" (at 168.91 52.07 0)
+    (property "Footprint" "XTRAPI_JLC2KiCadLib:C0402" (at 168.91 52.07 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/15869.html" (at 166.624 41.783 0)
@@ -2102,6 +2201,11 @@
     (pin "2" (uuid 486a527a-5da1-4adf-8173-8704fb4c83a1))
     (pin "1" (uuid f612a233-8f8d-4bd3-a9f7-ca64f784407f))
     (instances
+      (project "picopico"
+        (path "/649044b9-4f27-440c-a4af-24a6a7c2a060/5027dab2-82b9-4a79-b7a0-22330b5283af"
+          (reference "XTRAPI_C17") (unit 1)
+        )
+      )
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
           (reference "XTRAPI_C17") (unit 1)
@@ -2119,7 +2223,7 @@
     (property "Value" "0402WGF1002TCE" (at 34.29 104.14 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "JLCPCB:R0402" (at 46.99 102.87 0)
+    (property "Footprint" "XTRAPI_JLC2KiCadLib:R0402" (at 46.99 102.87 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/323315.html" (at 36.703 105.156 0)
@@ -2131,6 +2235,11 @@
     (pin "1" (uuid b8bb5f4b-285f-465b-b4d2-cf1a6d56c5c8))
     (pin "2" (uuid d576166b-0b9a-484b-9253-acbd6e120636))
     (instances
+      (project "picopico"
+        (path "/649044b9-4f27-440c-a4af-24a6a7c2a060/5027dab2-82b9-4a79-b7a0-22330b5283af"
+          (reference "XTRAPI_R2") (unit 1)
+        )
+      )
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
           (reference "XTRAPI_R2") (unit 1)
@@ -2212,6 +2321,11 @@
     (pin "17" (uuid ad6262b9-60be-4f5e-a659-3d307cdd5897))
     (pin "18" (uuid 985c9115-f02e-4bea-b460-489fe1a522c8))
     (instances
+      (project "picopico"
+        (path "/649044b9-4f27-440c-a4af-24a6a7c2a060/5027dab2-82b9-4a79-b7a0-22330b5283af"
+          (reference "XTRAPI_U3") (unit 1)
+        )
+      )
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
           (reference "XTRAPI_U3") (unit 1)
@@ -2229,7 +2343,7 @@
     (property "Value" "CL31A107MQHNNNE" (at 73.66 54.61 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "JLCPCB:C1206" (at 60.96 53.34 0)
+    (property "Footprint" "XTRAPI_JLC2KiCadLib:C1206" (at 60.96 53.34 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/89171.html" (at 71.247 51.054 0)
@@ -2241,6 +2355,11 @@
     (pin "1" (uuid 1ef1a97d-6dae-42ee-bfda-7788572a7cd6))
     (pin "2" (uuid ccf9b30a-6ffa-4978-b36e-5cefde2409a9))
     (instances
+      (project "picopico"
+        (path "/649044b9-4f27-440c-a4af-24a6a7c2a060/5027dab2-82b9-4a79-b7a0-22330b5283af"
+          (reference "XTRAPI_C14") (unit 1)
+        )
+      )
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
           (reference "XTRAPI_C14") (unit 1)
@@ -2258,7 +2377,7 @@
     (property "Value" "CL05A106MQ5NUNC" (at 114.3 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "JLCPCB:C0402" (at 116.84 58.42 0)
+    (property "Footprint" "XTRAPI_JLC2KiCadLib:C0402" (at 116.84 58.42 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/15869.html" (at 114.554 48.133 0)
@@ -2270,6 +2389,11 @@
     (pin "2" (uuid 8a6fa11a-5bae-477f-8c57-bea5102a0398))
     (pin "1" (uuid c7659082-b050-4def-9aa9-6c4336d11412))
     (instances
+      (project "picopico"
+        (path "/649044b9-4f27-440c-a4af-24a6a7c2a060/5027dab2-82b9-4a79-b7a0-22330b5283af"
+          (reference "XTRAPI_C7") (unit 1)
+        )
+      )
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
           (reference "XTRAPI_C7") (unit 1)
@@ -2287,7 +2411,7 @@
     (property "Value" "CL05A106MQ5NUNC" (at 143.51 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "JLCPCB:C0402" (at 143.51 41.91 0)
+    (property "Footprint" "XTRAPI_JLC2KiCadLib:C0402" (at 143.51 41.91 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/15869.html" (at 141.224 31.623 0)
@@ -2299,6 +2423,11 @@
     (pin "2" (uuid da2c2469-0bd9-4c0c-935d-606bd8056181))
     (pin "1" (uuid ad460563-76bf-4791-bb18-04e9fcab2ef2))
     (instances
+      (project "picopico"
+        (path "/649044b9-4f27-440c-a4af-24a6a7c2a060/5027dab2-82b9-4a79-b7a0-22330b5283af"
+          (reference "XTRAPI_C10") (unit 1)
+        )
+      )
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
           (reference "XTRAPI_C10") (unit 1)
@@ -2316,7 +2445,7 @@
     (property "Value" "CL05A106MQ5NUNC" (at 168.91 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "JLCPCB:C0402" (at 168.91 62.23 0)
+    (property "Footprint" "XTRAPI_JLC2KiCadLib:C0402" (at 168.91 62.23 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/15869.html" (at 166.624 51.943 0)
@@ -2328,6 +2457,11 @@
     (pin "2" (uuid d5223fed-c818-499f-a26a-d00f1f3b8f1d))
     (pin "1" (uuid bf5bce72-0c74-4f9e-bc39-abeaeba33139))
     (instances
+      (project "picopico"
+        (path "/649044b9-4f27-440c-a4af-24a6a7c2a060/5027dab2-82b9-4a79-b7a0-22330b5283af"
+          (reference "XTRAPI_C18") (unit 1)
+        )
+      )
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
           (reference "XTRAPI_C18") (unit 1)
@@ -2345,7 +2479,7 @@
     (property "Value" "CL31A107MQHNNNE" (at 26.67 52.07 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "JLCPCB:C1206" (at 13.97 58.42 0)
+    (property "Footprint" "XTRAPI_JLC2KiCadLib:C1206" (at 13.97 58.42 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/89171.html" (at 24.257 56.134 0)
@@ -2357,6 +2491,11 @@
     (pin "1" (uuid 0e3e037d-6cc3-4cf9-a59e-283afac63b9d))
     (pin "2" (uuid a3da8cd7-083a-4e25-a616-27fbc4fb7c08))
     (instances
+      (project "picopico"
+        (path "/649044b9-4f27-440c-a4af-24a6a7c2a060/5027dab2-82b9-4a79-b7a0-22330b5283af"
+          (reference "XTRAPI_C4") (unit 1)
+        )
+      )
       (project "xtrapico"
         (path "/84d570ec-9373-46a4-bf76-057b65352f33/42c019fd-2ef6-424b-a0c8-64412d942fda"
           (reference "XTRAPI_C4") (unit 1)

@@ -3,17 +3,13 @@
   (descr "C0402 footprint")
   (tags "C0402 footprint C1570")
   (attr smd)
-  (fp_text reference "REF**" (at 0 -2.498603) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -2.498603) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 4bfa474d-60a8-43d1-969f-dedde401a4e2)
   )
-  (fp_text value "C0402" (at 0 2.498603) (layer "F.Fab")
+  (fp_text value "C0402" (at 0 2.498603) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b506c0d9-561c-48e5-a422-32a60181a43e)
-  )
-  (fp_text user "REF**" (at 0 4.498603) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 77acaa8e-a46c-4336-940c-700446091dbf)
   )
   (fp_line (start -1.168707 0.346203) (end -1.168707 -0.346203)
     (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp e19e8dba-7a35-4ff2-aef6-2b9d95372507))
@@ -39,7 +35,7 @@
     (stroke (width 0.059995) (type solid)) (fill none) (layer "F.SilkS") (tstamp e503f131-c43e-44f7-a4b4-ed7c31d66e64))
   (pad "1" smd rect (at -0.545085 0) (size 0.790094 0.540005) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e46bb64d-ab7a-482c-9e3c-7a37e0f7c84d))
   (pad "2" smd rect (at 0.545085 0) (size 0.790094 0.540005) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1bca81bb-4695-4474-97ad-0f0d617796fb))
-  (model "${KIPRJMOD}/third_party/JLC2KiCad_lib/footprint/packages3d/C0402.step"
+  (model "${KIPRJMOD}/third_party/zeriyoshi/xtrapico/third_party/JLC2KiCad_lib/footprint/packages3d/C0402.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

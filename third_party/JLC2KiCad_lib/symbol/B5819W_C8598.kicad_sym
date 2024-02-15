@@ -6,7 +6,7 @@
     (property "Value" "B5819W_C8598" (at 0 -2.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprint:SOD-123_L2.7-W1.6-LS3.7-RD-1" (at 0 -10.16 0)
+    (property "Footprint" "XTRAPI_JLC2KiCadLib:SOD-123_L2.7-W1.6-LS3.7-RD-1" (at 0 -10.16 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210423/C2828417_EF1BF8BE3D48F97E320B09B073C89160.pdf" (at -2.54 0 0)

@@ -6,7 +6,7 @@
     (property "Value" "X322512MSB4SI" (at 0 -2.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprint:OSC-SMD_4P-L3.2-W2.5-BL" (at 0 -10.16 0)
+    (property "Footprint" "XTRAPI_JLC2KiCadLib:OSC-SMD_4P-L3.2-W2.5-BL" (at 0 -10.16 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/15866.html" (at -2.286 0.127 0)

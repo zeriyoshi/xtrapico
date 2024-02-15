@@ -6,7 +6,7 @@
     (property "Value" "AZ1117R-3_3TRE1" (at 0 -2.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprint:SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR" (at 0 -10.16 0)
+    (property "Footprint" "XTRAPI_JLC2KiCadLib:SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR" (at 0 -10.16 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/421845.html" (at -2.286 0.127 0)

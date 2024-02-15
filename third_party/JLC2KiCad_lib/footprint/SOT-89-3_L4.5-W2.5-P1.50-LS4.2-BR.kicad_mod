@@ -3,17 +3,13 @@
   (descr "SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR footprint")
   (tags "SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR footprint C108493")
   (attr smd)
-  (fp_text reference "REF**" (at -0.296825 -4.326314) (layer "F.SilkS")
+  (fp_text reference "REF**" (at -0.296825 -4.326314) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 1d0c0938-b339-4220-a77e-2ceb849866ea)
   )
-  (fp_text value "SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR" (at -0.296825 4.32606) (layer "F.Fab")
+  (fp_text value "SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR" (at -0.296825 4.32606) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp f4b4305b-0d17-4dfd-bbff-d3912d957315)
-  )
-  (fp_text user "REF**" (at -0.296825 6.32606) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 9885ff46-cc3f-4a70-b8ae-7996ecbc7764)
   )
   (fp_line (start -1.949886 -2.326314) (end -1.949886 -1.177496)
     (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 94bc1ed9-08d3-43c5-bfb2-42ab4fd372e5))
@@ -161,8 +157,8 @@
         (width 0) (fill yes))
     ) (tstamp 61eb8a16-1e86-433b-8a48-8c1ee8ad11d4))
   (pad "3" smd rect (at 1.356236 -1.5) (size 1.575006 0.672009) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9e3e1160-b43b-4e65-9288-6418eba4e301))
-  (model "${KIPRJMOD}/third_party/JLC2KiCad_lib/footprint/packages3d/SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR.step"
-    (offset (xyz -0.2999231955 0 0))
+  (model "${KIPRJMOD}/third_party/zeriyoshi/xtrapico/third_party/JLC2KiCad_lib/footprint/packages3d/SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR.step"
+    (offset (xyz -0.6 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -180))
   )
